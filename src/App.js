@@ -78,6 +78,8 @@ class App extends Component {
               width="100%"
               height="480"
             />
+
+            
           </center>
         </div>
 
@@ -120,14 +122,20 @@ class App extends Component {
           <p className="mb-0">Contact 0818903818 (Line ID also 0818903818 )</p>
         </blockquote>
 
-        <div className="  text-center">
+        <div className="text-center d-none d-md-block d-lg-block d-xl-block ">
+        <img style={{margin:'0 auto'}}
+            className="img-thumbnail center-block"
+            src={require(`./factoryPic/map.jpg`)}
+          />
+        </div>
+         
+        <div className="text-center d-xs-block   d-sm-block   d-md-none ">
         <img style={{margin:'0 auto', width : 400}}
             className="img-thumbnail center-block"
             src={require(`./factoryPic/map.jpg`)}
           />
         </div>
          
-        
       </div>
     );
   }
