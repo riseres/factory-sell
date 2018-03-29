@@ -23,7 +23,7 @@ class App extends Component {
     // }
 
     return (
-      <div className="col-sd-12 col-md-12" style={{ marginTop: 25 }}>
+      <div className="col-sd-12 col-md-12" style={{ marginTop:10}}>
         <div className="d-none d-md-block d-lg-block d-xl-block">
           <h1 className="display-4 text-center ">Factory for sales </h1>
         </div>
@@ -42,6 +42,10 @@ class App extends Component {
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
           />
+          <div>
+          <span style={{ color : 'gray' , fontSize : 10 }}>คลิกที่รูปเพื่อขยายเต็มจอ</span>
+
+          </div>
           {/* <ImageGallery items={images} showThumbnails={false} /> */}
         </div>
 
